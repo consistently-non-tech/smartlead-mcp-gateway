@@ -1,0 +1,11 @@
+{
+  "name": "smartlead-mcp-gateway",
+  "private": true,
+  "scripts": {
+    "start": "supergateway --stdio \"npx -y smartlead-mcp-by-leadmagic\" --outputTransport streamableHttp --port $PORT --host 0.0.0.0"
+  },
+  "dependencies": {
+    "supergateway": "latest",
+    "smartlead-mcp-by-leadmagic": "latest"
+  }
+}
